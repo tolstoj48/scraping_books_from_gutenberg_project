@@ -19,7 +19,7 @@ Project is created with:
 Clone the repo:
 https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
-In the command line you can use the python script like this:
+In the command line go to the directory with the repo and use like this:
 "python words_from_gutenberg.py your_link new_file"
 
 For example:
