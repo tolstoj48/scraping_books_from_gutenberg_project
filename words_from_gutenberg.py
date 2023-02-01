@@ -43,11 +43,11 @@ def get_list_of_words(text):
     return text.split()
 
 
-def populate_csv(result_list):
+def populate_csv(result_list, new_name_of_the_file):
     """
     The function to save words into csv file.
     """
-    with open("words.csv", "w", encoding="utf-8", newline='') as file:
+    with open(new_name_of_the_file, "w", encoding="utf-8", newline='') as file:
         # comma is problematic for number of columns in texts
         csv_writer = writer(file)
         for word in result_list:
@@ -64,6 +64,6 @@ listy = get_list_of_words(lowered_text)
 # get rid of punctuations
 cleared_list = clear_list(listy)
 # save the result into csv file
-populate_csv(cleared_list)
+populate_csv(cleared_list, sys.argv[2])
 # tell about the end
 print("done")
