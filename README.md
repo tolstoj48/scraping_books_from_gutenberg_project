@@ -1,4 +1,4 @@
-# Tool to scrap books from the Project Gutenberg site
+# Tool to get words from a book from the Project Gutenberg site
 
 ## Table of contents
 * [General info](#general-info)
@@ -7,7 +7,7 @@
 
 ## General info
 
-Anybody can download a book from the internet thanks to the people from https://gutenberg.org/.
+Anybody can download a book from the internet thanks to the people from https://gutenberg.org/. The project enables the downloading of a book and saving each word on a separate row into a csv file.
 
 ## Technologies
 Project is created with:
